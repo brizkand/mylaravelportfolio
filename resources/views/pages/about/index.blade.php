@@ -31,19 +31,19 @@
         </section>
     </div>
     
-    <div class='col-md-8'>
+    <div class='col-md-8 wow animated slow slideInRight'>
         <section class="team-section text-center">
             <h2 class="h2-responsive font-weight-bold my-5 green-text">Skills</h2>      
-            <div class="row text-center">
+            <div class="row text-center justify-content-md-center">
                 @foreach ($skills as $skill)      
-                    <div class="col-md-3 card">
+                    <div class="col-md-3 card p-4 mb-4 wow animated flipInX slower">
                         <div class="avatar mx-auto">
                             <img src="/storage/skills_icon_images/{{$skill->image}}" class="rounded z-depth-1-half" alt="{{$skill->image}}">
                         </div>
                         <h4 class="font-weight-bold dark-grey-text">{{$skill->title}}</h4>
-                    </div>
-                    <div class="progress md-progress" style="height: 20px">
-                        <div style="height: 20px" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: {{$skill->percentage}}%" aria-valuenow="{{$skill->percentage}}" aria-valuemin="0" aria-valuemax="100">{{$skill->percentage}}%</div>
+                        <div class="progress md-progress" style="height: 20px">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: {{$skill->percentage}}%; height: 20px" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">{{$skill->percentage}}%</div>
+                        </div>
                     </div>
                 @endforeach 
             </div>
