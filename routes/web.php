@@ -9,7 +9,10 @@ Route::get('/gallery/{gallery}', 'GalleryController@show');
 //ABOUT ROUTES
 Route::get('/about', 'AboutController@index');
 
-
+//PORTFOLIO ROUTES
+Route::get('/portfolio', 'PortfolioController@index');
+Route::get('/portfolio/{portfolio}', 'PortfolioController@show');
+Route::get('/portfolio_category/{portfolio_category}', 'PortfolioCategoriesController@show');
 
 
 /*

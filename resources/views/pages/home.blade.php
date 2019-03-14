@@ -71,8 +71,8 @@
                                 <h5 class="text-uppercase pt-md-5 pt-sm-2 pt-5 pb-md-5 pb-sm-3 pb-5 white-text font-weight-bold wow fadeInDown"
                                 data-wow-delay="0.3s">{{$home->description}}</h5>
                                 <div class="wow fadeInDown" data-wow-delay="0.3s">
-                                    <a class="btn btn-light-blue btn-lg">portfolio</a>
-                                    <a class="btn btn-indigo btn-lg">About me</a>
+                                    <a href='/portfolio' class="btn btn-light-blue btn-lg">portfolio</a>
+                                    <a href='/about' class="btn btn-indigo btn-lg">About me</a>
                                 </div>
                             </div>
                             <!--Grid column-->
@@ -95,7 +95,7 @@
         <!--Main Layout-->
 
         <!-- Footer -->
-        <footer class="page-footer font-small special-color-dark pt-4">
+        <footer class="page-footer font-small special-color-dark pt-4 animated wow bounce slow">
             <!-- Footer Elements -->
             <div class="container">    
                 <!-- Social buttons -->
