@@ -21,17 +21,17 @@
                     <span class="sr-only">(current)</span>
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item @if($active === 'portfolio') active @endif">
                     <a class="nav-link" href="/portfolio">Portfolio
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item @if($active === 'gallery') active @endif">
                     <a class="nav-link" href="/gallery">Gallery
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item @if($active === 'about') active @endif">
                     <a class="nav-link" href="/about">About
                         <span class="sr-only">(current)</span>
                     </a>
@@ -39,7 +39,7 @@
             </ul>
             <!--Left navigation-->
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                <li class="nav-item @if($active === 'contact') active @endif">
                     <a class="nav-link" href="/contact">Contact
                         <span class="sr-only">(current)</span>
                     </a>

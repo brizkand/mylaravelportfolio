@@ -11,9 +11,12 @@
                 <!-- Card image -->
                 <div class="view view-cascade overlay">
                     <img class="card-img-top" src="/storage/portfolio_images/{{$portfolio->image}}" alt="Card image cap">
-                    <a href="#">
-                        <div class="mask rgba-white-slight text-center"></div>
-                    </a>
+                    <div class="mask flex-center">
+                        <p class="white-text lead">Visit this website in new page.</p>
+                        <a href="{{$portfolio->website}}" target='_blank'>
+                            <div class="mask rgba-white-slight text-center"></div>
+                        </a>
+                    </div>
                 </div>
 
                 <!-- Card content -->

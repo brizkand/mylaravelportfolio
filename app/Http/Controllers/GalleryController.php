@@ -16,9 +16,10 @@ class GalleryController extends Controller
 
     public function index()
     {
+        $active = 'gallery';
         $carousels = Carousel::all();
         $gallery_images = Gallery::all();
-        return view('pages.gallery.index')->with('gallery_images', $gallery_images)->with('carousels', $carousels);
+        return view('pages.gallery.index')->with('gallery_images', $gallery_images)->with('carousels', $carousels)->with('active', $active);
     }
 
     /**
@@ -50,7 +51,8 @@ class GalleryController extends Controller
      */
     public function show(Gallery $gallery)
     {
-        return view('pages.gallery.show', compact('gallery'));
+        $active = 'gallery';
+        return view('pages.gallery.show', compact(['gallery', 'active']));
     }
 
     /**

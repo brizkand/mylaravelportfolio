@@ -18,6 +18,14 @@
         <link rel="stylesheet" href="{{asset('mdb_boothack/css/mdb.css')}}">
         <link rel="stylesheet" href="{{asset('mdb_boothack/css/style.css')}}">
         <link rel="stylesheet" href="{{asset('mdb_boothack/css/style.min.css')}}"> --}}
+        <style>
+            .stickyTop{        
+                position: sticky;
+                top: 0;
+                width: 100%;
+                z-index: 1;
+            }
+        </style>    
     </head>
     <body>
         @yield('carousel')

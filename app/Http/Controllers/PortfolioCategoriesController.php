@@ -47,8 +47,9 @@ class PortfolioCategoriesController extends Controller
      */
     public function show(PortfolioCategory $portfolioCategory)
     {
+        $active = 'portfolio';
         $portfolio_categories = PortfolioCategory::all();
-        return view('pages.portfolio_categories.show', compact(['portfolio_categories', 'portfolioCategory']));
+        return view('pages.portfolio_categories.show', compact(['portfolio_categories', 'portfolioCategory', 'active']));
     }
 
     /**

@@ -36,7 +36,7 @@
             
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">&copy; Copyright: {{date('Y')}}
-        <a href="https://mdbootstrap.com/education/bootstrap/">Kevin Holgado</a>
+        <a href="#">Kevin Holgado</a>
     </div>
     <!-- Copyright -->      
 </footer>

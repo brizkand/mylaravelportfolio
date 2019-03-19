@@ -16,9 +16,10 @@ class PortfolioController extends Controller
     public function index()
     {
         //$categories = Portfolio::distinct('category')->pluck('category');
+        $active = 'portfolio';
         $categories = PortfolioCategory::all();
         $portfolios = Portfolio::all();
-        return view('pages.portfolio.index', compact(['portfolios', 'categories']));
+        return view('pages.portfolio.index', compact(['portfolios', 'categories', 'active']));
     }
 
 
@@ -51,7 +52,8 @@ class PortfolioController extends Controller
      */
     public function show(Portfolio $portfolio)
     {
-        return view('pages.portfolio.show', compact('portfolio'));
+        $active = 'portfolio';
+        return view('pages.portfolio.show', compact(['portfolio', 'active']));
     }
 
     /**

@@ -16,10 +16,11 @@ class AboutController extends Controller
      */
     public function index()
     {
+        $active = 'about';
         $about = About::first();
         $homepage = HomePage::first();
         $skills = Skill::all();
-        return view('pages.about.index', compact(['about', 'homepage', 'skills']));
+        return view('pages.about.index', compact(['about', 'homepage', 'skills', 'active']));
     }
 
     /**

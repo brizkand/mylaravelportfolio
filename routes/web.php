@@ -14,6 +14,10 @@ Route::get('/portfolio', 'PortfolioController@index');
 Route::get('/portfolio/{portfolio}', 'PortfolioController@show');
 Route::get('/portfolio_category/{portfolio_category}', 'PortfolioCategoriesController@show');
 
+//CONTACT ROUTES
+Route::get('/contact', 'ContactController@index');
+Route::post('/send', 'ContactController@send');
+
 
 /*
 |--------------------------------------------------------------------------
