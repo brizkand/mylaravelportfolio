@@ -3,8 +3,8 @@
     <h1 class='h1-responsive font-weight-bold indigo-text text-center my-5 wow animated flipInX slower'>Gallery Image</h1>
     <a href="/gallery" class='btn btn-default'>Go back</a>
 
-    <div class='col-md-12'>
-        <div class='row justify-content-md-center'>
+    <div class='row justify-content-md-center'>
+        <div class='col-md-6'>
             <!-- Card -->
             <div class="card card-cascade wider reverse wow animated rubberBand">
 

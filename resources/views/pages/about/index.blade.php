@@ -15,16 +15,16 @@
             <p class="text-uppercase blue-text"><strong>{{strToUpper($homepage->description)}}</strong></p>
             <p class="grey-text p-4 mx-4">{{$about->description}}</p>
             <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                    <i class="fa fa-facebook-f blue-text"> </i>
+                <!-- Linked in -->
+                <a href='https://www.linkedin.com/in/kevin-ishmael-holgado-532242146/' target='_blank' class="p-2 fa-lg fb-ic">
+                    <i class="fa fa-linkedin blue-text"> </i>
                 </a>
-                <!-- Twitter -->
+                {{-- <!-- Twitter -->
                 <a class="p-2 fa-lg tw-ic">
                     <i class="fa fa-twitter blue-text"> </i>
-                </a>
+                </a> --}}
                 <!-- Instagram -->
-                <a class="p-2 fa-lg ins-ic">
+                <a href='https://www.instagram.com/holgadokevinishmael/?hl=en' target='_blank' class="p-2 fa-lg ins-ic">
                     <i class="fa fa-instagram blue-text"> </i>
                 </a>
             </ul>

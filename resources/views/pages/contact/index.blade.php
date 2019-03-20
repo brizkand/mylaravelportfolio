@@ -93,18 +93,18 @@
                 </ul>
                 <hr class="hr-light my-4">
                 <ul class="list-inline text-center list-unstyled">
-                    <li class="list-inline-item">
+                    {{-- <li class="list-inline-item">
                         <a class="p-2 fa-lg tw-ic">
                             <i class="fa fa-twitter"></i>
                         </a>
-                    </li>
+                    </li> --}}
                     <li class="list-inline-item">
-                        <a class="p-2 fa-lg li-ic">
+                        <a href='https://www.linkedin.com/in/kevin-ishmael-holgado-532242146/' target='_blank' class="p-2 fa-lg li-ic">
                             <i class="fa fa-linkedin"> </i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="p-2 fa-lg ins-ic">
+                        <a href='https://www.instagram.com/holgadokevinishmael/?hl=en' target='_blank' class="p-2 fa-lg ins-ic">
                             <i class="fa fa-instagram"> </i>
                         </a>
                     </li>

@@ -100,7 +100,7 @@
             <div class="container">    
                 <!-- Social buttons -->
                 <ul class="list-unstyled list-inline text-center">
-                    <li class="list-inline-item">
+                    {{-- <li class="list-inline-item">
                         <a class="btn-floating btn-fb mx-1">
                             <i class="fa fa-facebook"> </i>
                         </a>
@@ -114,14 +114,14 @@
                         <a class="btn-floating btn-gplus mx-1">
                             <i class="fa fa-google"> </i>
                         </a>
-                    </li>
+                    </li> --}}
                     <li class="list-inline-item">
-                        <a class="btn-floating btn-li mx-1">
+                        <a href='https://www.linkedin.com/in/kevin-ishmael-holgado-532242146/' target='_blank' class="btn-floating btn-li mx-1">
                             <i class="fa fa-linkedin"> </i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="btn-floating btn-dribbble mx-1">
+                        <a href='https://www.instagram.com/holgadokevinishmael/?hl=en' target='_blank' class="btn-floating btn-dribbble mx-1">
                             <i class="fa fa-instagram"> </i>
                         </a>
                     </li>
