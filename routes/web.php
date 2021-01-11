@@ -8,6 +8,7 @@ Route::get('/gallery/{gallery}', 'GalleryController@show');
 
 //ABOUT ROUTES
 Route::get('/about', 'AboutController@index');
+Route::get('/myresume', 'AboutController@resume');
 
 //PORTFOLIO ROUTES
 Route::get('/portfolio', 'PortfolioController@index');

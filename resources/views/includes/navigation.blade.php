@@ -36,6 +36,11 @@
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
+                <li class="nav-item @if($active === 'myresume') active @endif">
+                    <a class="nav-link" href="/myresume">My Resume
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
             </ul>
             <!--Left navigation-->
             <ul class="navbar-nav ml-auto">

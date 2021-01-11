@@ -23,6 +23,12 @@ class AboutController extends Controller
         return view('pages.about.index', compact(['about', 'homepage', 'skills', 'active']));
     }
 
+    public function resume()
+    {
+        $active = 'myresume';
+        return view('pages.about.myresume', compact('active'));
+    }
+
     /**
      * Show the form for creating a new resource.
      *

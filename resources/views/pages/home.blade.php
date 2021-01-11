@@ -44,6 +44,9 @@
                             <li class="nav-item">
                                 <a class="nav-link lead" href="/about">ABOUT</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link lead" href="/myresume">MY RESUME</a>
+                            </li>
                         </ul>
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">

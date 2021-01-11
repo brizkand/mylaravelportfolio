@@ -18,7 +18,7 @@ class PortfolioController extends Controller
         //$categories = Portfolio::distinct('category')->pluck('category');
         $active = 'portfolio';
         $categories = PortfolioCategory::all();
-        $portfolios = Portfolio::all();
+        $portfolios = Portfolio::latest()->get();
         return view('pages.portfolio.index', compact(['portfolios', 'categories', 'active']));
     }
 
